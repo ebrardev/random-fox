@@ -1,0 +1,54 @@
+.navbar {
+    background: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-item {
+    margin: 5px;
+    padding: 5px;
+    font-size: medium;
+    color: white;
+    display: flex; /* Yeni eklendi */
+    align-items: center; /* Yeni eklendi */
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-item a {
+    color: #e90101;
+    text-decoration: none;
+  }
+  
+  .navbar-item a:hover {
+    color: #afa9a9;
+    text-decoration: none;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 10px 700px;
+  }
+  
