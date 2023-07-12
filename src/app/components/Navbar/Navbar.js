@@ -25,7 +25,7 @@ const Navbar = () => {
             </a>
           </li>
         </div>
-        <h1 className="navbar-title">Random Fox</h1>
+       
       </ul>
     
     </nav>

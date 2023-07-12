@@ -25,12 +25,16 @@ function FoxImage() {
       console.error('Error fetching random fox image:', error);
     }
   };
-
   return (
-    <div>
-      <img src={imageUrl} alt="Random Fox" />
+    <div className="card">
+    <h1 className='head'>Your lucky fox</h1>
+      <div className="image-container">
+        <img src={imageUrl} alt="Random Fox" />
+      </div>
     </div>
   );
+  
+  
 }
 
 export default FoxImage;
