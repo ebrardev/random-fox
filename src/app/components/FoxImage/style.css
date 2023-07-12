@@ -20,3 +20,14 @@
     text-align: center;
     padding: 5px;
   }
+  @media (max-width: 768px) {
+    /* Örnek olarak 768px ekran genişliği için ayarlar yapabilirsiniz */
+    .card {
+      margin: 80px auto;
+    }
+  
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+  }
